@@ -191,7 +191,7 @@ if query:
         st.write('Page Numbers: ' , str(page_num))
 with col2:
     if page_num is not None:
-        show_pdf(np.max(page_num) - 1)
+        show_pdf(page_num[0])
     else:
         show_pdf(0)
 
