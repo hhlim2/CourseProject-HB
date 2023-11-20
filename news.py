@@ -11,9 +11,12 @@ from bs4 import BeautifulSoup
 import base64
 import numpy as np
 
+from dotenv import load_dotenv
+load_dotenv()
+
 
 from huggingface_hub import login
-login(token='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')
+login(token=os.getenv('HF_APIKEY', None))
 
 import warnings
 warnings.filterwarnings("ignore")
