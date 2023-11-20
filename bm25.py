@@ -1,12 +1,13 @@
 import nltk
 import numpy as np
 nltk.download('stopwords')
-
 from nltk.corpus import stopwords
 
+#class to create bm25 scores of the textbook chunks based on the input query
 
 class BM25_algorithm:
      
+    #initalize bm25 variables
     def __init__(self, corpus, k, b):
         self.num_docs = len(corpus)
         self.avgdl = sum(len(i) for i in corpus) / self.num_docs
@@ -15,7 +16,8 @@ class BM25_algorithm:
         self.corpus = corpus
 
 
-    #https://www.geeksforgeeks.org/removing-stop-words-nltk-python/#
+    #https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
+    #function to remove stopwords from corpus
     def remove_stopwords(self):
         corpus_updated = []
         corpus = self.corpus
@@ -32,9 +34,7 @@ class BM25_algorithm:
             corpus_updated.append(filtered_doc)
         return corpus_updated
 
-
-
-    
+    #function to calculate the bm25 scores of the textbook chunks based on the input query
     def calculate_scores(self, query):
         query = query.split(' ')
 
@@ -62,13 +62,3 @@ class BM25_algorithm:
             score.append(score_doc)
         
         return score
-
-
-
-
-
-    
-
-
-         
-
