@@ -10,8 +10,8 @@ uses: docker/login-action@v1
 with:
 registry: ghcr.io
 username: ${{ github.actor }}
-password: ${{ secrets.GITHUB_TOKEN }}
-- name: Build the final-project Docker image
+password: ${{ secrets.CR_TOKEN }}
+- name: Build the Docker image
 run: |
        docker build . --tag ghcr.io/hhlim2/finalproject-docker-gcr-demo:latest
        docker run ghcr.io/hhlim2/finalproject-docker-gcr-demo:latest
