@@ -17,5 +17,4 @@ jobs:
     - name: Build the Docker image
       run: |
        docker build . --tag ghcr.io/hhlim2/finalproject-docker-gcr-demo:latest
-       docker run ghcr.io/hhlim2/finalproject-docker-gcr-demo:latest
        docker push ghcr.io/hhlim2/finalproject-docker-gcr-demo:latest
