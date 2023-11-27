@@ -31,7 +31,7 @@ pip install -r requrements.txt
 ```
 streamlit run final_project.py
 ```
-Open http://localhost:8080 in firefox for full features (PDF display does not work in Chrome)
+Open the localhost link in firefox for full features (PDF display does not work in Chrome)
 
 # Usage
 1. Input your question regarding topics covered in the cs441 textbook and receive an answer. The PDF viewer will bring you to the page/section where the answer can be found.
