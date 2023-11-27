@@ -1,5 +1,10 @@
 # CS410 CourseProject - Hannah Benig
 
+# Prerequsites
+- Mac OS, Linux, or WSL (on a Windows PC)
+-   wsl installation: https://learn.microsoft.com/en-us/windows/wsl/install
+-   then type 'wsl' in terminal to activate
+- Python
 
 # Setup and Run Streamlit App
 1. Create venv
@@ -7,18 +12,22 @@
 python3 -m venv 410env
 ```
 
-3. Activate the virtual environment
+2. Activate the virtual environment
 ```
-mac: source 410env/bin/activate
-windows: & "./410env/Scripts/Activate.ps1"
+source 410env/bin/activate
 ```
 
-5. Install all dependencies
+3. Clone this repository
+```
+git clone https://github.com/hhlim2/CourseProject-HB.git
+```
+
+4. Install all dependencies
 ```
 pip install -r requrements.txt
 ```
 
-7. Run the application
+5. Run the application
 ```
 streamlit run final_project.py
 ```
