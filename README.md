@@ -4,6 +4,7 @@
 - Mac OS, Linux, or WSL (on a Windows PC)
     - wsl installation: https://learn.microsoft.com/en-us/windows/wsl/install
     - type 'wsl' in terminal to activate
+    - wsl can be quite slow; another option is to remote into a Linux machine via FastX from UIUC EWS: https://answers.uillinois.edu/illinois.engineering/page.php?id=81693
 - Python
 
 # Setup and Run Streamlit App
