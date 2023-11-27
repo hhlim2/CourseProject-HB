@@ -2,8 +2,8 @@
 
 # Prerequsites
 - Mac OS, Linux, or WSL (on a Windows PC)
--   wsl installation: https://learn.microsoft.com/en-us/windows/wsl/install
--   then type 'wsl' in terminal to activate
+    - wsl installation: https://learn.microsoft.com/en-us/windows/wsl/install
+    - type 'wsl' in terminal to activate
 - Python
 
 # Setup and Run Streamlit App
