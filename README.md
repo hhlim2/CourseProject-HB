@@ -12,6 +12,7 @@
 1. Clone this repository
 ```
 git clone https://github.com/hhlim2/CourseProject-HB.git
+```
 
 2. Create a virtual environment
 ```
