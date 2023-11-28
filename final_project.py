@@ -14,12 +14,6 @@ import numpy as np
 
 from huggingface_hub import login
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-login(token=os.getenv('HF_APIKEY'))
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -193,7 +187,7 @@ if query:
         st.write('Page Numbers: ' , str(page_num))
 with col2:
     if page_num is not None:
-        show_pdf(page_num[0])
+        show_pdf(page_num[-1])
     else:
         show_pdf(0)
 
