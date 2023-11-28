@@ -8,19 +8,19 @@
 - Python
 
 # Setup and Run Streamlit App
-1. Create venv
-```
-python3 -m venv 410env
-```
 
-2. Activate the virtual environment
-```
-source 410env/bin/activate
-```
-
-3. Clone this repository
+1. Clone this repository
 ```
 git clone https://github.com/hhlim2/CourseProject-HB.git
+
+2. Create a virtual environment
+```
+python3 -m venv env
+```
+
+3. Activate the virtual environment
+```
+source env/bin/activate
 ```
 
 4. Install all dependencies
@@ -30,9 +30,9 @@ pip install -r requrements.txt
 
 5. Run the application
 ```
-streamlit run final_project.py
+streamlit run main.py
 ```
-Open the localhost link in firefox for full features (PDF display does not work in Chrome)
+Open the localhost link in Firefox for full features (PDF display does not work in Chrome)
 
 # Usage
 1. Input your question regarding topics covered in the cs441 textbook and receive an answer. The PDF viewer will bring you to the page/section where the answer can be found.
