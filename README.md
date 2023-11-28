@@ -1,6 +1,6 @@
 # CS410 CourseProject - Hannah Benig
 
-# Prerequsites
+# Prerequisites
 - Mac OS, Linux, or WSL (on a Windows PC)
     - wsl installation: https://learn.microsoft.com/en-us/windows/wsl/install
     - type 'wsl' in terminal to activate
