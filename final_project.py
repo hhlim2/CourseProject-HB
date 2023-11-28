@@ -159,7 +159,9 @@ def summarize(input_query):
     similarity = np.average(np.array(bm25_scores)[ind])
     
     #model prompt
-    input_text = f"Use the following context: {relevant_passages} to answer the question: {input_query}."
+    #input_text = f"Use the following context: {relevant_passages} to answer the question: {input_query}."
+    input_text = f"{relevant_passages} \n\n {input_query}"
+
 
     #tokenizes the model prompt to be taken in by the model
     input_ids = tokenizer(input_text, return_tensors="pt").input_ids
