@@ -2,18 +2,11 @@
 
 Instructions on how to install and run the web app locally, along with example questions that can be used for testing. Two methods of running the application are provided. 
 
-1. Locally:
-- Recommended specs: 32GB RAM,  i7-12700H Processor
-- A computer with worse specs might run very slowly or not at all
-2. Google Colab:
+1. Google Colab:
 - Will run slowly but does not depend on personal computer specs
-
-
-# Prerequisites for Local
-- Mac OS, Linux, or WSL (on a Windows PC)
-    - WSL installation: https://learn.microsoft.com/en-us/windows/wsl/install
-    - type 'wsl' in terminal to activate
-- Python
+2. Locally:
+- Recommended specs: 32GB RAM,  i7-12700H Processor
+    - A computer with worse specs might run very slowly or not at all
 
 # Setup and Run Streamlit App in Google Colab
 The Colab notebook contains the same code from the main.py and bm25.py files but allows you to utilize the T4 GPU runtime.
@@ -41,6 +34,11 @@ Colab Instructions
 9. You should be brought to the Streamlit App. 
 
 # Setup and Run Streamlit App Locally
+Prerequisites 
+- Mac OS, Linux, or WSL (on a Windows PC)
+    - WSL installation: https://learn.microsoft.com/en-us/windows/wsl/install
+    - type 'wsl' in terminal to activate
+- Python
 
 1. Clone this repository
 ```
