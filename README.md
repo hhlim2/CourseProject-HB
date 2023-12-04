@@ -16,7 +16,7 @@ The Colab notebook contains the same code from the main.py and bm25.py files but
 
 Colab Instructions
 1. Download the CS441 Textbook.pdf file from https://github.com/hhlim2/CourseProject-HB/blob/main/CS441%20Textbook.pdf 
-2. Open Google Colab Link in **Firefox** (make a copy and run in your personal Google account): https://colab.research.google.com/drive/1lxnP1LTVJ0fClyiLbsI97CLCa1EieNg4?usp=sharing
+2. Open Google Colab Link in **Chrome** (make a copy and run in your personal Google account): https://colab.research.google.com/drive/1lxnP1LTVJ0fClyiLbsI97CLCa1EieNg4?usp=sharing
 3. Upload the CS441 Textbook.pdf file into the Google Colab Notebook Files folder (numbers 1 & 2 in Figure 1)
 4. Connect to the T4 GPU runtime in the Google Colab Notebook (number 3 in Figure 1)
 5. Run all cells
@@ -25,7 +25,7 @@ Colab Instructions
 *Figure 2: IP Address and Localtunnel Link*
 
 6. Copy the IP Address contained in the output of cell 3 (number 1 in Figure 2)
-7. Click on the link in the output of cell 4 (number 2 in Figure 2) 
+7. Open the link in the output of cell 4 in **Firefox** as the PDF display does not work in Chrome (number 2 in Figure 2) 
 
 ![alt text](https://github.com/hhlim2/CourseProject-HB/blob/main/photos/colab_3.png?raw=true)
 *Figure 3: Example Localtunnel Webpage*
