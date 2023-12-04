@@ -71,7 +71,7 @@ Open the localhost link in Firefox for full features (PDF display does not work 
 1. Input your question regarding topics covered in the CS441 textbook and receive an answer. The PDF viewer will bring you to the page/section where the answer can be found.
 2. You can change the hyperparameters in the left window to see how tweaking parameters changes the answer. The default parameters have been set to values where the best response is generated.
 
-Please note that LLMs are probabilistic models which can lead to variations in the returned response. Small changes, such as adding different punctuation or changing words, can lead to drastically different answers.  Example questions are provided below to ensure that the application can be tested accurately.
+Please note that LLMs are probabilistic models which can lead to variations in the returned response. Unfortunately, Huggingface models do not have a random_seed  parameter to ensure that the same response is always returned. Additionally, small changes, such as adding different punctuation or changing words, can lead to drastically different answers. Example questions are provided below to ensure the application can be tested successfully.
 
 Example Questions
 1. ``` what is agglomerative clustering ```
