@@ -60,7 +60,7 @@ source env/bin/activate
 4. Upgrade pip and install all dependencies
 ```
 pip install --upgrade pip
-pip install -r requrements.txt
+pip install -r requirements.txt
 ```
 
 5. Run the application
