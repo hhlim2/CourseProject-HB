@@ -1,4 +1,5 @@
 # CS410 CourseProject - Hannah Benig
+YouTube Demo Link: https://youtu.be/_ytzbcFFnhY
 
 Instructions on how to install and run the web app locally, along with example questions that can be used for testing. Two methods of running the application are provided. 
 
