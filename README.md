@@ -38,7 +38,7 @@ Prerequisites
 - Mac OS, Linux, or WSL (on a Windows PC)
     - WSL installation: https://learn.microsoft.com/en-us/windows/wsl/install
     - type 'wsl' in terminal to activate
-- Python
+- Python 3.11
 
 1. Clone this repository
 ```
