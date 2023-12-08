@@ -56,8 +56,9 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-4. Install all dependencies
+4. Upgrade pip and install all dependencies
 ```
+pip install --upgrade pip
 pip install -r requrements.txt
 ```
 
